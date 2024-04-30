@@ -1,0 +1,22 @@
+reporting_category,CPSubgroup,SG_Group,SG_Label,SG_Label_SDesc,SG_Order
+RB,Black/African Am,Ethnicity/Race,African American,Black,0
+RI,Am Indian/Alskn Nat,Ethnicity/Race,American Indian or Alaska Native,Am Ind,1
+RA,Asian,Ethnicity/Race,Asian,Asian,2
+RF,Filipino,Ethnicity/Race,Filipino,Filipino,3
+RH,Hispanic,Ethnicity/Race,Hispanic or Latino,Hispanic,4
+RP,Nat Hwiin/Othr Pac Islndr,Ethnicity/Race,Pacific Islander,Pac Islandr,5
+RW,White,Ethnicity/Race,White,White,6
+RT,Multiple,Ethnicity/Race,Two or more Races,Multi Race,7
+RD,Missing,Ethnicity/Race,Race Not Reported,Missing Race,8
+GM,M,Gender,Male,M,9
+GF,F,Gender,Female,F,10
+SS,SED,Program,Socioeconomically Disadvantaged,SED,11
+SE,EL,Program,English Learners,EL,12
+SD,SWD,Program,Students with Disabilities,SWD,13
+SF,Foster,Program,Foster Youth,Foster,14
+SH,Homeless,Program,Homeless Youth,Homeless,15
+RFEP,RFEP,Program,Reclassified as Fluent English Proficient,RFEP,16
+SM,Migrant,Program,Migrant Education,Migrant,17
+GX,X,Gender,Non-binary Gender,Non-binary,18
+GZ,Z,Gender,Missing Gender,Missing Gender,19
+TA,AllStu,Total,All Students,All Stu,20

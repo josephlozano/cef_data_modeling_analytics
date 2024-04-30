@@ -1,0 +1,6 @@
+metric_id,Indicator,MOrder,Priority,PriorityGroup
+415,CAASPP Standard Met or Exceeded Rate: English Language Arts,401,Pupil Achievement,Pupil Outcomes
+416,CAASPP Standard Met or Exceeded Rate: Mathematics,402,Pupil Achievement,Pupil Outcomes
+502,Chronic Absenteeism Rate,507,Pupil Engagement,Engagement
+602,Expulsion Rate,604,School Climate,Engagement
+601,Suspension Rate,601,School Climate,Engagement

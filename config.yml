@@ -1,0 +1,81 @@
+data_sources:
+  - name: California Department of Education
+    base_url: https://www3.cde.ca.gov/demo-downloads/
+    default_pandas_kwargs:
+      dtype: str
+      sep: "\t"
+      encoding: ISO-8859-1
+    datasets:
+      - name: Chronic Absenteeism Data
+        url_subdirectory: attendance
+        files:
+          - path: chronicabsenteeism23.txt
+          - path: chronicabsenteeism22-v3.txt
+          - path: chronicabsenteeism21.txt
+          - path: chronicabsenteeism19.txt
+          - path: chronicabsenteeism18.txt
+      - name: Expulsion Data
+        url_subdirectory: discipline
+        files:
+          - path: expulsion23.txt
+          - path: expulsion22-v3.txt
+          - path: expulsion21.txt
+          - path: expulsion20.txt
+          - path: expulsion19.txt
+          - path: expulsion18.txt
+      - name: Suspension Data
+        url_subdirectory: discipline
+        files:
+          - path: suspension23.txt
+          - path: suspension22-v3.txt
+          - path: suspension21.txt
+          - path: suspension20.txt
+          - path: suspension19.txt
+          - path: suspension18.txt
+      - name: Cumulative Enrollment Data
+        url_subdirectory: ce
+        files:
+          - path: cenroll2223.txt
+          - path: cenroll2122.txt
+          - path: cenroll2021.txt
+          - path: cenroll1920.txt
+          - path: cenroll1819.txt
+          - path: cenroll1718.txt
+
+  # - name: California Assessment of Student Performance and Progress (CAASPP)
+  #   base_url: https://caaspp-elpac.ets.org/caaspp/researchfiles/
+  #   default_pandas_kwargs:
+  #     - header: 0
+  #       dtype: str
+  #       low_memory: False
+  #       quotechar: '"'
+  #   datasets:
+  #     - name: CAASPP
+  #       files:
+  #         - path: sb_ca2023_all_csv_v1.zip
+  #         - path: sb_ca2022_all_csv_v1.zip
+  #         - path: sb_ca2021_all_csv_v2.zip
+  #         - path: sb_ca2019_all_csv_v4.zip
+  #         - path: sb_ca2018_all_csv_v3.zip
+
+  # - name: DataQuest California Department of Education
+  #   base_url:
+  #     https://dq.cde.ca.gov/dataquest/longtermel/
+  #   default_pandas_kwargs:
+  #     - header: 0
+  #       dtype:
+  #         - SchoolCode: str
+  #         - DistrictCode: str
+  #         - CountyCode: str
+  #       sep: "\t"
+  #       low_memory: False
+  #   datasets:
+  #     - name: Enrollment by ELAS, LTEL, and At-Risk by Grade
+  #       files:
+  #         - path: lteldnld.aspx?year=2023-24
+  #         - path: lteldnld.aspx?year=2022-23
+  #         - path: lteldnld.aspx?year=2021-22
+  #         - path: lteldnld.aspx?year=2020-21
+  #         - path: lteldnld.aspx?year=2019-20
+  #         - path: lteldnld.aspx?year=2018-19
+  #         - path: lteldnld.aspx?year=2017-18
